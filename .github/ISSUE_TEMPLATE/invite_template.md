@@ -1,0 +1,33 @@
+---
+name: invite_template
+about: invite
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: Invitation to the GitHub Community Organization
+description: I would like to be part of the awesome community
+title: "Please invite me to the GitHub Community Organization"
+labels: [invite me to the organisation]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Insert your name here
+    validations:
+      required: true
+  - type: textarea
+    id: Additional
+    attributes:
+      label: Additional Context
+      description: Why do you want to join?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        You can also join our whatsapp community [here](link)
+        Feel free to check out other cool repositories of the devWorld Community [here](https://github.com/D-e-v-world)
