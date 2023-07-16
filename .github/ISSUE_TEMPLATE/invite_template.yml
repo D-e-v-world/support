@@ -1,12 +1,3 @@
----
-name: invite_template
-about: invite
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: Invitation to the GitHub Community Organization
 description: I would like to be part of the awesome community
 title: "Please invite me to the GitHub Community Organization"
@@ -30,4 +21,4 @@ body:
     attributes:
       value: |
         You can also join our whatsapp community [here](link)
-        Feel free to check out other cool repositories of the devWorld Community [here](https://github.com/D-e-v-world)
+        Feel free to check out other cool repositories of the EddieHub Community [here](https://github.com/D-e-v-world)
